@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <link
     href="https://fonts.googleapis.com/css?family=Roboto"
     rel="stylesheet"
@@ -13,111 +13,91 @@
   <script src="https://kit.fontawesome.com/6cdc5cff43.js"></script>
 </head>
 <body>
-  <div class="header d-flex justify-content-between align-items-center"style="background-color: rgb(217, 217, 217)">
-    <div class="col-5 text-start " style="margin-right: -50px;">
-      <!-- Để trống để giữ không gian bên trái -->
+  <div class="header d-flex justify-content-between align-items-center" style="background-color: rgb(217, 217, 217); padding: 10px;">
+    <div class="logo text-center mx-auto">
+        <a href="../HTML/trang_chu.html">
+            <img src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png" style="width: 200px;" />
+        </a>
     </div>
-    <div class="logo text-center">
-      <a href="../HTML/trang_chu.html">
-      <img
-        src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png"
-        style="width: 250px"
-      />
-    </a>
+    <div class="icon text-end d-flex align-items-center">
+        <input type="search" id="search" placeholder="Search" class="form-control me-2" style="width: 150px;" />
+        <i class="fa-solid fa-magnifying-glass me-2"></i>
+        <a href="../HTML/dang_nhap.html" style="text-decoration: none; color: inherit;"><i class="fa-regular fa-user me-2"></i></a>
+        <a href="../HTML/gio_hang.html" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-cart-shopping"></i></a>
     </div>
-    <div class="icon col-2 text-end me-4 d-flex align-items-center justify-content-end">
+</div>
 
-    </div>
-    <div class="icon col-2 text-end me-4 d-flex" >
-      <input type="search" name=""  id="search" placeholder="Search" style="margin-right: 15px;" />
-
-      <i class="fa-solid fa-magnifying-glass me-2" style="margin-top: 3px;"></i>
-      <a href="../HTML/dang_nhap.html" style="text-decoration: none; color: inherit;" ><i class="fa-regular fa-user me-2"></i></a>
-      <a href="../HTML/gio_hang.html" style="text-decoration: none; color: inherit;">
-      <i class="fa-solid fa-cart-shopping"></i></a>
-    </div>
-    </div>
-    
-
-  <nav class="navbar navbar-custom navbar-expand-md justify-content-center" style="background-color: rgb(190, 189, 189);">
-
-
-    
-  <ul class="navbar-nav text-center col-12">
-    <li class="nav-item col-4">
-        <a href="../HTML/giam_gia.html" class="nav-link d-inline me-5">Sales Off</a>
-    </li>
-    <li class="nav-item col-4" >
-        <a href="../HTML/all_product.html" class="nav-link d-inline me-5">All Products</a>
-    </li>
-    <li class="nav-item col-4">
-        <a href="../HTML/blog.html" class="nav-link d-inline me-5">Be Our Ambassador</a>
-    </li>
-</ul>
-
+<nav class="navbar navbar-custom navbar-expand-md justify-content-center" style="background-color: rgb(190, 189, 189);">
+    <ul class="navbar-nav text-center w-100">
+        <li class="nav-item col-4">
+            <a href="../HTML/giam_gia.html" class="nav-link">Sales Off</a>
+        </li>
+        <li class="nav-item col-4">
+            <a href="../HTML/all_product.html" class="nav-link">All Products</a>
+        </li>
+        <li class="nav-item col-4">
+            <a href="../HTML/blog.html" class="nav-link">Be Our Ambassador</a>
+        </li>
+    </ul>
 </nav>
 
 
-    <div class="container justify-content-center" style="flex: 1;display: flex; justify-content: center; align-items: center; ">
+<div class="container d-flex justify-content-center align-items-center" style="flex: 1;">
+  <form action="" class="col-12 col-md-8 col-lg-6 mx-auto p-4" style="background-color: #f8f9fa; border-radius: 10px;">
+      <div class="form-group text-center mb-4">
+          <img src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png" alt="Logo" style="width: 200px;">
+      </div>
+      
+      <div class="form-group mb-3">
+          <label for="account">Account name or email address *</label>
+          <input type="text" class="form-control rounded-pill" id="account" required>
+      </div>
+      
+      <div class="form-group mb-3">
+          <label for="password">Password *</label>
+          <input type="password" class="form-control rounded-pill" id="password" required>
+      </div>
+      
+      <div class="d-flex justify-content-between align-items-center mb-3">
+          <a href="#" class="text-decoration-none">Forgot your password?</a>
+          <label class="d-flex align-items-center">
+              <input type="checkbox" id="remember" class="me-1">
+              Remember password
+          </label>
+      </div>
+      
+      <div class="d-flex justify-content-between">
+          <button type="button" class="btn btn-dark rounded-pill px-4">Log in</button>
+          <button type="button" class="btn btn-outline-dark rounded-pill px-4">Sign up</button>
+      </div>
+  </form>
+</div>
 
-        <form action="" class="col-6 mx-auto ">
-          <div class="form-group text-center" style="margin-bottom: 50px; margin-top: 50px;">
-            <img src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png" alt="" style="width: 250px">
-            
+
+    <div class="footer mt-5">
+      <div class="row text-center text-md-start">
+          <div class="col-12 col-md-4 mb-4">
+              <h2>Contact Us</h2>
+              <p>romand202208@gmail.com</p>
+              <p>romand.comestic</p>
+              <p>romand.comestic</p>
           </div>
-            <div class="form-group ">
-                <label for="account">Account name or email address *</label>
-                <input type="text" class="form-control rounded-pill" id="account" required>
-            </div>
-            <div class="form-group mt-3 ">
-                <label for="password">Password *</label>
-                <input type="password" class="form-control rounded-pill" id="password" required>
-            </div>
-            <div class="d-flex justify-content-between mt-2 ">
-                <a href="#" class="text-decoration-none">Forgot your password?</a>
-                <label class="d-flex align-items-center">
-                    <input type="checkbox" id="remember" class="me-1">
-                    Remember password
-                </label>
-            </div>
-            <div class="d-flex justify-content-between mt-4 ">
-                <button type="button"  class="btn btn-dark rounded-pill px-4">Log in</button>
-                <button type="button" class="btn btn-dark rounded-pill px-4">Sign up</button>
-            </div>
-        </form>
-    </div>
-
-    <div class="footer row-cols-12" >
-      <div class="col-12 d-flex">
-        <div style="margin-left: 50px;">
-          <h2>Contact Us</h2>
-          <p>romand202208@gmail.com</p>
-          <p>romand.comestic</p>
-          <p>romand.comestic</p>
-        </div>
-        <div style="margin-left: 50px;">
-          <h2>About Us</h2>
-          <p>About us</p>
-          <p>Product Catalog</p>
-          <p>Wholesale Inquiry</p>
-        </div>
-        <div style="position: absolute; right: 10px;">
-          <h2>Newsletter</h2>
-          <p>Sign up for exclusive offers, original stories, events and more.</p>
-
-        </div>
+          <div class="col-12 col-md-4 mb-4">
+              <h2>About Us</h2>
+              <p>About us</p>
+              <p>Product Catalog</p>
+              <p>Wholesale Inquiry</p>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+              <h2>Newsletter</h2>
+              <p>Sign up for exclusive offers, original stories, events, and more.</p>
+          </div>
       </div>
-      <div class="text-center" >
-        <img
-          src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png"
-          style="width: 250px; "
-          
-        />
+      <div class="text-center mt-3">
+          <img src="https://kbeautyhouse.de/media/image/a3/57/5b/romand_logoXiXXOoR3ZEMwP.png" style="width: 200px;">
       </div>
-      <p style="margin-top: 30px; margin-left: 80px;">
-        &copy; 2021 KBeautyHouse. All Rights Reserved. Designed by KBeautyHouse
-      </p>
-    </div>
+      <p class="text-center mt-3">&copy; 2021 KBeautyHouse. All Rights Reserved. Designed by KBeautyHouse</p>
+  </div>
 
 
 </body>
