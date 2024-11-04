@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.header{
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#search{
+    border: none;
+    border-bottom: 2px solid black;
+
+    background-color: rgb(217, 217, 217);
+
+}
+
+#logo img{
+    position: absolute;
+    left: 50px;
+}
+.navbar-custom {
+    background-color: rgb(217, 217, 217);
+    padding: 10px 0;
+}
+.navbar-custom .nav-link {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(217, 217, 217);
+    padding: 10px 0;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.btn-buy {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e0e0e0;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-btn i {
+    font-size: 16px;
+  }
+  
+
+  .row {
+    margin: 20px 0;
+  }
+  
+  .card {
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 0;
+    transition: transform 1s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #d3d3d3; /* Placeholder background */
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-info {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #555;
+  }
+  
