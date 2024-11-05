@@ -4,12 +4,7 @@
     box-sizing: border-box;
     font-family: "Roboto";
 }
-.header{
-    display: flex;
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 #search{
     border: none;
     border-bottom: 2px solid black;
@@ -18,10 +13,7 @@
 
 }
 
-#logo img{
-    position: absolute;
-    left: 50px;
-}
+
 .navbar-custom {
     background-color: rgb(217, 217, 217);
     padding: 10px 0;
